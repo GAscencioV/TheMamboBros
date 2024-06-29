@@ -15,11 +15,13 @@ namespace TheMamboBros.Web.Controllers
 
         public IActionResult Index()
         {
+	// Render the Page 
             return View();
         }
 
         public IActionResult Privacy()
         {
+	   // Render the Privacy 
             return View();
         }
 
